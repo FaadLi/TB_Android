@@ -14,6 +14,7 @@ import android.widget.Toast;
 
 import com.example.okee.tugasbesar.Account.Daftar;
 import com.example.okee.tugasbesar.Account.Login;
+import com.example.okee.tugasbesar.Admin.Admin_main;
 import com.example.okee.tugasbesar.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -22,7 +23,7 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class Profil extends AppCompatActivity {
     private Button btnChangePassword, btnRemoveUser,
-            changePassword, remove, signOut;
+            changePassword, remove, signOut, btn_admin;
     private TextView email;
 
     private EditText oldEmail, password, newPassword;
@@ -70,6 +71,9 @@ public class Profil extends AppCompatActivity {
         password = (EditText) findViewById(R.id.password);
         newPassword = (EditText) findViewById(R.id.newPassword);
 
+
+        btn_admin = (Button) findViewById(R.id.btn_admin);
+
         oldEmail.setVisibility(View.GONE);
 
         password.setVisibility(View.GONE);
@@ -100,6 +104,13 @@ public class Profil extends AppCompatActivity {
             }
         });
 
+        btn_admin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(Profil.this, Admin_main.class);
+                startActivity(i);
+            }
+        });
         changePassword.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

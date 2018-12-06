@@ -33,6 +33,10 @@
     <string name="btn_sign_out">Sign Out</string>
     <string name="lbl_forgot_password">Lupa password?</string>
     <string name="forgot_password_msg">Kami hanya membutuhkan Email untuk mereset Password Anda .</string>
-
     <string name="email_id">PROFIL INFO</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
 </resources>

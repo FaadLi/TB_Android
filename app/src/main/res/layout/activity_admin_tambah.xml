@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Admin.Admin_home">
+    tools:context=".Admin.Admin_tambah">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="THIS IS FRAGMENT HOME"
-        android:textSize="25sp"
+        android:text="THIS IS FRAGMENT TAMBAH KOST"
+        android:textSize="20sp"
         android:layout_centerInParent="true"/>
 
 

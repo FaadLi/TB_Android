@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/activity_admin_nav_header">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/btn_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/btn_tambah"
+            android:icon="@drawable/map"
+            android:title="Tambah Kost" />
+        <item
+            android:id="@+id/btn_galeri"
+            android:icon="@drawable/map"
+            android:title="Galeri" />
+    </group>
+
+    <item android:title="Mencoba Menu">
+        <menu>
+            <item
+                android:id="@+id/btn_share"
+                android:icon="@drawable/map"
+                android:title="Share" />
+        </menu>
+    </item>
+</menu>

@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import com.example.okee.tugasbesar.Admin.Admin_home;
+import com.example.okee.tugasbesar.Admin.Admin_main;
 import com.example.okee.tugasbesar.R;
 
 public class Profil_nav extends Fragment {
@@ -41,7 +41,7 @@ public class Profil_nav extends Fragment {
 
         btn_admin.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view){
-                Intent i = new Intent(getActivity(), Admin_home.class);
+                Intent i = new Intent(getContext(), Admin_main.class);
                 startActivity(i);
             }
         });

@@ -11,11 +11,11 @@ import android.view.ViewGroup;
 
 import com.example.okee.tugasbesar.R;
 
-public class Admin_home extends Fragment {
+public class Admin_tambah extends Fragment {
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.activity_admin_home, container, false);
+        return inflater.inflate(R.layout.activity_admin_tambah, container, false);
     }
 }
